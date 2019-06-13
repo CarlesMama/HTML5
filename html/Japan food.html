@@ -1,22 +1,174 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: yellowgreen;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 300px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
 <body>
 
-<h1> Japan </h1>
-<p><a href="#W1"> 오꼬노미야끼</a></p>
-<p><a href="#W2"> 돈까스</a></p>
-<p><a href="#W3"> 차슈라멘</a></p>
-<p><a href="#W4"> 타코야끼</a></p>
+<div class="header">
+  <h1> Today recipe </h1>
+  <p>오늘 밥은 뭐먹지??</p>
+</div>
 
-<h2 id="W1">오꼬노미야끼</h2>
-<p>파전보단 오꼬노미</p>
-<h2 id="W2">돈까스</h2>
-<p>돈까스 좋아해요?</p>
-<h2 id="W3">차슈라멘</h2>
-<p>이치란라멘 먹고싶네</p>
-<h2 id="W4">타코야끼</h2>
-<p>뜨거울껄...?</p>
+<div class="topnav">
+  <a href="./html/korea food.html"> Korea </a>
+  <a href="./html/Japan food.html"> Japan </a>
+  <a href="./html/China food.html"> China </a>
+  <a href="./html/West food.html"> West </a>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+    
+    <h1> Japan Food Menu List</h1>
+
+<ul>
+ <li><a href="./JapanFood/OCNM.html">오꼬노미야끼</li>
+   <a href="./JapanFood/OCNM.html">
+      <img src="오꼬노미야끼.jpg"style="width:400px;height:300px;" style="height:500px;">
+  <br>
+  <br>
+  <br>
+  <li><a href="./JapanFood/DGS.html">돈카츠</li>
+     <a href="./JapanFood/DGS.html">
+      <img src="돈가스.jpg"style="width:400px;height:300px;" style="height:500px;">
+  <br>
+  <br>
+  <br>
+  <li><a href="./JapanFood/CSRM.html">차슈 라멘</li>
+     <a href="./JapanFood/CSRM.html">
+      <img src="차슈라멘.jpg"style="width:400px;height:300px;" style="height:500px;">
+
+</ul>  
+  
+    </div>
+   <div class="rightcolumn">
+    <div class="card">
+      <h3>Mascot</h3>
+       <img src="요리사마스코트.jpg"style="width:250px;height:250px;" style="height:200px;">
+      <p> </p>
+    </div>
+    <div class="card">
+      <h3> Social Network Service</h3>
+      <img src="페이스북.jpg"style="width:250px;height:150px;" style="height:200px;">
+      <img src="인스타그램.jpg"style="width:250px;height:150px;" style="height:200px;">
+      <img src="유튜브.jpg"style="width:250px;height:200px;" style="height:200px;">
+  
+    <div class="card">
+      
+      <h4>* 모든요리는 직접 만들어요 *</h4>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2> 오늘은 내가 요리사  </h2>
+</div> 
+ 
 
 
 </body>
 </html>
+
