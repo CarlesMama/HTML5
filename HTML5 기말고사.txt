@@ -1,0 +1,15 @@
+HTML5 웹 프로그래밍 기말고사
+
+HTML : Entities, Symbols, charset
+forms(4개)*get/post방식차이 *action *input * attribute
+media *audio : mp3(3개) *video : mp4(3개)
+
+CSS introduction, Syntax, how to, porperty<속성>(color, background, pont...)
+box-model(box-sizing) Padding 계산
+
+Combinator
+A의 후손이 B = space 공백 A B
+A의 자식이(바로아레) B = > A>B
+A의 형제(바로아레)B = + A+B
+A의 형제(그냥형제)B = ~ A~B
+D.M.O(Document Object Model)
